@@ -21,7 +21,7 @@ x * y = k
 Δy = (Δx * y) / (x + Δx)
 ```
 **Swap Calculation with Fees**  
-![Fee Calculation](https://via.placeholder.com/600x200.png?text=Fee+Calculation+Process)
+[Fee Calculation]
 
 ```mermaid
 graph TD
@@ -142,8 +142,8 @@ stateDiagram-v2
 ### Fee Distribution Model
 ```math
 effective_fee = input_amount * fee_bps / 10_000
-protocol_fee = effective_fee * 0.2  # 20% to protocol
-lp_fee = effective_fee * 0.8        # 80% to LPs
+protocol_fee = effective_fee * 0.2  -- 20% to protocol
+lp_fee = effective_fee * 0.8        -- 80% to LPs
 ```
 
 ### Fee State Machine
