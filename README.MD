@@ -234,6 +234,10 @@ liquidity_tests:
   decimal_variants: [6, 9, 18]
 ```
 
-License
-MIT License - See LICENSE for details.
+```
+## License
+
+MIT License - see [LICENSE.md](LICENSE.md) for details
+
+```
 
